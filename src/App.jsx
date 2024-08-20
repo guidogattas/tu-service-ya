@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import ReparacionBombas from './components/ReparacionBombas';
 import Plomeria from './components/Plomeria';
 import CalefonTermotanque from './components/CalefonTermotanque';
