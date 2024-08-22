@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home/Home';
-import ReparacionBombas from './components/ReparacionBombas';
+import Rowa from './components/Rowa.jsx';
 import Plomeria from './components/Plomeria';
 import CalefonTermotanque from './components/CalefonTermotanque';
 
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/reparacion-bombas" element={<ReparacionBombas />} />
+        <Route path="/rowa" element={<Rowa />} />
         <Route path="/plomeria" element={<Plomeria />} />
         <Route path="/calefon-termotanque" element={<CalefonTermotanque />} />
 

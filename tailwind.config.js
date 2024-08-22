@@ -14,6 +14,7 @@ export default {
 
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
+        'arial': ['arial', 'sans-serif']
       },
     },
     plugins: [],

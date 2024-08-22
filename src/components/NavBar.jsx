@@ -14,7 +14,7 @@ const NavBar = () => {
                 </li>
                 <li className='flex-1'>
                     <Link
-                        to="/reparacion-bombas"
+                        to="/rowa"
                         className='block py-8 font-bold text-center transition duration-700 rounded hover:bg-customOrange'
                     >
                         Reparación de Bombas Rowa
