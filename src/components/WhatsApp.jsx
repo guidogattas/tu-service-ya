@@ -7,7 +7,8 @@ const WhatsApp = () => {
     return (
         <>
 
-            <a href={`https://wa.me/${phoneNumber}?text=${encodedMessage}`}>
+            <a href={`https://wa.me/${phoneNumber}?text=${encodedMessage}`} target="_blank"
+                rel="noopener noreferrer">
                 <WhatsAppLogo height="70" fill='white' className="w-16 text-green-500 duration-200 filltransition-colors hover:text-green-700" />
             </a>
             <div>
