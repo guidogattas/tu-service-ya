@@ -1,9 +1,15 @@
 const Hero = () => {
     return (
-        <div className="flex flex-row h-screen bg-cover" style={{ backgroundImage: "url('/images/bg/serv-grales-2.jpg')" }} >
-            <div className="ml-[50vw] p-4 py-[100px] flex flex-col gap-[100px] text-customGrey">
-                <h3 className="font-bold text-white drop-shadow text-7xl font-arial">TU SERVICE YA</h3>
-                <p className="text-3xl text-black drop-shadow right-32 top-32 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, provident reiciendis labore dignissimos odit vitae minus explicabo? At qui eligendi, optio aliquam, obcaecati labore quos illo quibusdam quisquam, recusandae accusamus?</p>
+        <div className="relative">
+            <div
+                className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-60"
+                style={{ backgroundImage: "url('/images/bg/serv-grales-2.jpg')" }}
+            ></div>
+            <div className="relative z-10 ml-[50vw] p-4 py-[100px] flex flex-col gap-[100px] text-customGrey">
+                <h3 className="font-bold text-customGrey drop-shadow text-7xl font-arial">TU SERVICE YA</h3>
+                <p className="text-3xl text-black drop-shadow right-32 top-32">
+                    Somos una empresa abocada al servicio de reparación y mantenimiento puerta a puerta. Contamos con movilidad propia, realizamos reparaciones en el día, personal calificado para asesorar y realizar informes técnicos.
+                </p>
                 <a
                     href={`https://web.whatsapp.com/send?phone=1533066712&text=Prueba`}
                     target="_blank"
@@ -17,4 +23,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;

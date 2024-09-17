@@ -9,7 +9,6 @@ import CalefonTermotanque from './components/CalefonTermotanque';
 
 import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
-import WhatsAppLogo from './components/icons/WhatsAppLogo.jsx';
 
 
 function App() {

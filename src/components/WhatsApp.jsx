@@ -2,8 +2,9 @@ import WhatsAppLogo from './icons/WhatsAppLogo.jsx';
 
 const WhatsApp = () => {
 
-    const phoneNumber = '1133066712'
+    const phoneNumber = '11 3306 6712'
     const encodedMessage = 'Prueba'
+    
     return (
         <>
 
