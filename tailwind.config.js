@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        customGrey: "#565656",
+        customGrey: "#1F1F1F",
         customOrange: "#D54700",
         customWhite: "#e6e6e6",
       },

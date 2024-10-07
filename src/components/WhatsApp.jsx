@@ -1,23 +1,20 @@
 import WhatsAppLogo from './icons/WhatsAppLogo.jsx';
 
 const WhatsApp = () => {
+    const phoneNumber = '11 3126 5226';
+    const encodedMessage = 'Buenos días, quisiera consultarte por...';
 
-    const phoneNumber = '11 3306 6712'
-    const encodedMessage = 'Prueba'
-    
     return (
-        <>
-
-            <a href={`https://wa.me/${phoneNumber}?text=${encodedMessage}`} target="_blank"
-                rel="noopener noreferrer">
-                <WhatsAppLogo height="70" fill='white' className="w-16 text-green-500 duration-200 filltransition-colors hover:text-green-700" />
+        <div className='flex items-center p-2 mr-6 space-x-2'>
+            <a href={`https://wa.me/${phoneNumber}?text=${encodedMessage}`} target="_blank" rel="noopener noreferrer">
+                <WhatsAppLogo height="70" fill='white' className="w-12 text-green-500 transition-colors duration-200 md:w-16 hover:text-green-700" />
             </a>
-            <div>
-                <p className='font-bold text-xxl black text- font-inter'>{phoneNumber}</p>
-                <p className='text-lg font-inter'>Contactanos por Whatsapp</p>
+            <div className='flex flex-col'>
+                <p className='text-white font-xbold text- md:text-xl font-inter'>{phoneNumber}</p>
+                <p className='text-sm text-white md:text-lg font-inter'>Contáctanos por WhatsApp</p>
             </div>
-        </>
-    )
+        </div>
+    );
 }
 
-export default WhatsApp
+export default WhatsApp;
