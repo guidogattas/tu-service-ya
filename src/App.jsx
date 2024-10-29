@@ -2,13 +2,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home/Home';
-import Rowa from './components/Rowa.jsx';
-import Plomeria from './components/Plomeria';
-import CalefonTermotanque from './components/CalefonTermotanque';
+import Rowa from './components/Rowa/Rowa.jsx';
+import Plomeria from './components/Plomeria/Plomeria';
+import CalefonTermotanque from './components/CalefonTermotanque/CalefonTermotanque';
 
 
-import Footer from './components/Footer.jsx';
-import Header from './components/Header.jsx';
+import Footer from './components/common/Footer/Footer';
+import Header from './components/common/Header/Header.jsx';
 
 
 function App() {

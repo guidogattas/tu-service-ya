@@ -1,4 +1,4 @@
-import WhatsApp from './WhatsApp.jsx';
+import WhatsApp from '../../WhatsApp.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 

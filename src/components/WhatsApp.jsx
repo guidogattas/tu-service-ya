@@ -1,4 +1,4 @@
-import WhatsAppLogo from './icons/WhatsAppLogo.jsx';
+import WhatsAppLogo from '../assets/icons/WhatsAppLogo.jsx';
 
 const WhatsApp = () => {
     const phoneNumber = '11 3126 5226';

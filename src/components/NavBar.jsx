@@ -26,7 +26,7 @@ const NavBar = () => {
                         />
                     </svg>
                 </button>
-                
+
                 <ul className="flex-row hidden w-full md:flex text-customWhite font-inter">
                     <li className="flex-1">
                         <Link

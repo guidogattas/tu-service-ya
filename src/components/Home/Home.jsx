@@ -1,6 +1,8 @@
 import Info from "./Info";
 import Hero from "./Hero";
-import Cards from "./Cards";
+import Cards from "./Cards/Cards";
+import CardPhrases from "./Cards/CardPhrases";
+import Zones from "../common/Zones/Zones";
 
 const Home = () => {
     return (
@@ -16,10 +18,12 @@ const Home = () => {
 
                 <Cards />
 
-                <p className="container mx-auto mt-12 mb-12 text-xl font-semibold md:mt-20 md:mb-20 md:text-2xl text-customGrey">
-                    Todos nuestros trabajos tienen garantía y están realizados por profesionales matriculados. ¡Comuníquese con nuestra empresa SERVICIO HOY en Ciudad de Buenos Aires y le brindaremos soluciones de calidad!
+                <p className="container mx-auto mt-12 mb-12 text-xl font-semibold md:mt-20 md:mb-20 md:text-4xl text-customGrey">
+                    Todos nuestros trabajos tienen garantía y están realizados por profesionales. ¡Comuníquese con nuestra empresa y le brindaremos soluciones de calidad!
                 </p>
             </section>
+            <Zones />
+            <CardPhrases />
         </>
     );
 };

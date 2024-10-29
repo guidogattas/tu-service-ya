@@ -1,11 +1,11 @@
-import WhatsAppLogo from './icons/WhatsAppLogo.jsx';
-import NavBar from './NavBar.jsx';
-import WhatsApp from './WhatsApp.jsx';
+import WhatsAppLogo from '../../../assets/icons/WhatsAppLogo.jsx';
+import NavBar from '../../NavBar.jsx';
+import WhatsApp from '../../WhatsApp.jsx';
 
 const Header = () => {
     return (
         <>
-            <section className='flex flex-col md:flex-row items-center justify-between px-4 py-4 bg-customGrey text-customWhite font-inter font-bold text-[24px]'>
+            <section className='flex flex-col md:flex-row items-center justify-around px-4 py-4 bg-customGrey text-customWhite font-inter font-bold text-[24px]'>
                 <div className='flex items-center'>
                     <img className='w-[350px]' src="\images\Logo-tsy-png-white.png" alt="Logo Tu Service Ya" />
                 </div>
