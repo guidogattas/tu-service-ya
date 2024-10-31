@@ -44,31 +44,33 @@ const Rowa = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center pb-8 bg-gray-100">
-                <h3 className="p-8 text-4xl font-bold font ">Nuestra forma de trabajo</h3>
-                <p className="p-8 text-2xl font-semibold text-center text-">
-                    Realizamos la visita a domicilio para analizar el problema a solucionar.
-                    Brindamos un análisis y diagnóstico del problema para resolver de la manera más rápida y eficiente.
-                    Se detalla el presupuesto y las tareas de mantenimiento y/o reparación a realizar.
-                    Con el consentimiento del cliente procedemos a la reparación.
-                    Como último, realizamos un ajuste y limpieza del equipo para aumentar su durabilidad y asegurar un correcto funcionamiento.
+                <h3 className="p-8 text-4xl font-bold">Nuestra forma de trabajo</h3>
+                <p className="p-8 text-2xl font-semibold text-center">
+                    Realizamos la visita a domicilio para analizar el problema a solucionar. Brindamos un análisis y diagnóstico del problema para resolver de la manera más rápida y eficiente. Se detalla el presupuesto y las tareas de mantenimiento y/o reparación a realizar. Con el consentimiento del cliente procedemos a la reparación. Como último, realizamos un ajuste y limpieza del equipo para aumentar su durabilidad y asegurar un correcto funcionamiento.
                 </p>
-                <ul className="flex flex-col gap-6 p-10 text-2xl font-bold text-center">
 
-                    <li>
-                        - **Mantenimiento y reparación completa de bombas**: realizamos el diagnóstico y la reparación de bombas ROWA en el día o en un plazo de hasta 24 horas, según el problema.
-                    </li>
-                    <li>
-
-
-                        - **Plan Canje**: ofrecemos la opción de cambiar su bomba por una nueva o repararla a nuevo con garantía escrita.
-                    </li>
-                    <li>
-                        - **Garantía de servicio oficial**: brindamos la garantía de servicio directo y especializado para que nuestros clientes se sientan respaldados.
-                    </li>
-
-                </ul>
+                {/* Tarjetas para los servicios */}
+                <div className="grid grid-cols-1 gap-6 p-10 md:grid-cols-2">
+                    <div className="p-6 bg-white rounded-lg shadow-md">
+                        <h4 className="text-xl font-bold">Mantenimiento y reparación completa de bombas</h4>
+                        <p className="mt-2">
+                            Realizamos el diagnóstico y la reparación de bombas ROWA en el día o en un plazo de hasta 24 horas, según el problema.
+                        </p>
+                    </div>
+                    <div className="p-6 bg-white rounded-lg shadow-md">
+                        <h4 className="text-xl font-bold">Plan Canje</h4>
+                        <p className="mt-2">
+                            Ofrecemos la opción de cambiar su bomba por una nueva o repararla a nuevo con garantía escrita.
+                        </p>
+                    </div>
+                    <div className="p-6 bg-white rounded-lg shadow-md">
+                        <h4 className="text-xl font-bold">Garantía de servicio oficial</h4>
+                        <p className="mt-2">
+                            Brindamos la garantía de servicio directo y especializado para que nuestros clientes se sientan respaldados.
+                        </p>
+                    </div>
+                </div>
             </div>
-            {/* <hr className="h-2 bg-customOrange" /> */}
             <Cards />
             <hr className="h-2 bg-customOrange" />
             <Info />

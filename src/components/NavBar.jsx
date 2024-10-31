@@ -22,7 +22,7 @@ const NavBar = () => {
                             to="/"
                             className="block py-8 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
                         >
-                            INICIO
+                            Inicio
                         </Link>
                     </li>
                     <li className="flex-1">
