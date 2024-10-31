@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,20 +13,7 @@ const NavBar = () => {
                     className="ml-auto text-customWhite focus:outline-none md:hidden"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <svg
-                        className="w-8 h-8"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M4 6h16M4 12h16m-7 6h7"
-                        />
-                    </svg>
+                    <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="w-8 h-8" />
                 </button>
 
                 <ul className="flex-row hidden w-full md:flex text-customWhite font-inter">
@@ -63,8 +52,12 @@ const NavBar = () => {
                 </ul>
             </div>
 
-            {isOpen && (
-                <ul className="flex flex-col md:hidden text-customWhite font-inter">
+            {/* Menú móvil */}
+            <div
+                className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+                    } overflow-hidden`}
+            >
+                <ul className="flex flex-col text-customWhite font-inter">
                     <li>
                         <Link
                             to="/"
@@ -102,7 +95,7 @@ const NavBar = () => {
                         </Link>
                     </li>
                 </ul>
-            )}
+            </div>
         </nav>
     );
 };

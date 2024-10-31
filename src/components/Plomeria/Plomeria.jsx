@@ -49,11 +49,7 @@ const Plomeria = () => {
             <div className="flex flex-col items-center justify-center pb-8 bg-gray-100">
                 <h3 className="p-8 text-4xl font-bold">Nuestra forma de trabajo</h3>
                 <p className="p-8 text-2xl font-semibold text-center">
-                    Realizamos la visita a domicilio para analizar el problema a solucionar.
-                    Brindamos un análisis y diagnóstico del problema para resolver de la manera más rápida y eficiente.
-                    Se detalla el presupuesto y las tareas de mantenimiento y/o reparación a realizar.
-                    Con el Ok del cliente procedemos a la reparación.
-                    Como último, realizamos un ajuste y limpieza del equipo para aumentar su durabilidad y asegurar un correcto funcionamiento.
+                    Realizamos una visita a su hogar para evaluar el estado de la grifería y los sistemas de plomería. Nuestro equipo especializado se encargará de ofrecer un análisis detallado y recomendaciones personalizadas para cada situación. A continuación, le proporcionamos un presupuesto claro y preciso para los servicios necesarios. Una vez que contemos con la aprobación del cliente, procederemos a llevar a cabo las reparaciones y mantenimientos necesarios, asegurando un trabajo de calidad y eficiencia.
                 </p>
 
                 <div className="flex flex-col gap-10 p-10 text-2xl font-semibold text-left md:flex-row text-customGrey">
@@ -65,8 +61,8 @@ const Plomeria = () => {
                             <li><strong>Reparación de pérdidas de agua:</strong> solución de fugas en cañerías y juntas.</li>
                             <li>
                                 <strong>Armado de cañerías nuevas:</strong> diseño e instalación de sistemas de cañerías para nuevos proyectos.
-                                <br /><span className="text-sm text-red-600">Nota: no realizamos destapaciones.</span>
                             </li>
+                            <br /><span className="text-lg font-bold text-red-600">Nota: no realizamos destapaciones.</span>
                         </ul>
                     </div>
 

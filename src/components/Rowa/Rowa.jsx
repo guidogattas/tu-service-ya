@@ -49,7 +49,7 @@ const Rowa = () => {
                     Realizamos la visita a domicilio para analizar el problema a solucionar.
                     Brindamos un análisis y diagnóstico del problema para resolver de la manera más rápida y eficiente.
                     Se detalla el presupuesto y las tareas de mantenimiento y/o reparación a realizar.
-                    Con el Ok del cliente procedemos a la reparación.
+                    Con el consentimiento del cliente procedemos a la reparación.
                     Como último, realizamos un ajuste y limpieza del equipo para aumentar su durabilidad y asegurar un correcto funcionamiento.
                 </p>
                 <ul className="flex flex-col gap-6 p-10 text-2xl font-bold text-center">

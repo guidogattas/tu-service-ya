@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const Cards = () => {
     return (
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:h-[200px] md:gap-0">
+        <div className="grid grid-cols-1 gap-1 md:grid-cols-4 md:h-[200px] md:gap-0">
             <Card
                 logo="https://img.icons8.com/ios/50/light-on--v1.png"
                 backgroundColor="bg-black"

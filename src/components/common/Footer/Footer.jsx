@@ -10,13 +10,13 @@ const Footer = () => {
             </div>
             <div className='flex flex-row self-center gap-4'>
                 <a
-                    className='flex gap-2'
+                    className='flex gap-4'
                     href="mailto:pizarroguillermo13@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FontAwesomeIcon icon={faEnvelope} className="text-3xl" />
-                    <span className='text-lg'>CONTACTANOS POR EMAIL</span>
+                    <FontAwesomeIcon icon={faEnvelope} className="text-4xl" />
+                    <span className='text-xl font-bold'>Contactanos por Email</span>
                 </a>
             </div>
             <div className='self-center text-center'>

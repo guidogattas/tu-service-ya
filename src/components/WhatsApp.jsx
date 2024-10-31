@@ -11,7 +11,7 @@ const WhatsApp = () => {
             </a>
             <div className='flex flex-col'>
                 <p className='text-white font-xbold text- md:text-xl font-inter'>{phoneNumber}</p>
-                <p className='text-sm text-white md:text-lg font-inter'>Contáctanos por WhatsApp</p>
+                <p className='text-sm text-white md:text-lg font-inter'>Contactanos por WhatsApp</p>
             </div>
         </div>
     );
