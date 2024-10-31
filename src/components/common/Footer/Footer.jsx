@@ -16,7 +16,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                 >
                     <FontAwesomeIcon icon={faEnvelope} className="text-4xl" />
-                    <span className='text-xl font-bold'>Contactanos por Email</span>
+                    <span className='text-xl '>Contactanos por Email</span>
                 </a>
             </div>
             <div className='self-center text-center'>

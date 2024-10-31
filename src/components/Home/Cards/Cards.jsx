@@ -12,7 +12,7 @@ const Cards = () => {
             />
             <Card
                 logo="https://img.icons8.com/ios/50/megaphone.png"
-                backgroundColor="bg-customGrey"
+                backgroundColor="bg-gray-500"
                 textColor="text-white"
                 title="CONFIABILIDAD"
                 description="Nuestros clientes son nuestra garantía"
