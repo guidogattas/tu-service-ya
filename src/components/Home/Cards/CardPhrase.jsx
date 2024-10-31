@@ -1,6 +1,5 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGoogle } from '@fortawesome/free-brands-svg-icons';
-// import defaultUserImage from './assets/default-user.png'; // Importa tu imagen de usuario por defecto
 
 const CardPhrase = ({ nombre, cantidadEstrellas, imagenUsuario, frase }) => {
     return (
@@ -18,7 +17,7 @@ const CardPhrase = ({ nombre, cantidadEstrellas, imagenUsuario, frase }) => {
                     alt={nombre}
                     className="w-12 h-12 border-2 border-gray-300 rounded-full"
                     onError={(e) => {
-                        e.target.src = defaultUserImage; // Si falla la carga de imagen, se coloca la imagen por defecto
+                        e.target.src = defaultUserImage; 
                     }}
                 /> */}
                 {/* <div className="ml-4"> */}

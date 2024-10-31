@@ -63,7 +63,6 @@ const NavBar = () => {
                 </ul>
             </div>
 
-            {/* Menú desplegable para móviles */}
             {isOpen && (
                 <ul className="flex flex-col md:hidden text-customWhite font-inter">
                     <li>
@@ -72,7 +71,7 @@ const NavBar = () => {
                             className="block py-4 font-bold text-center transition duration-300 rounded hover:bg-customOrange"
                             onClick={() => setIsOpen(false)}
                         >
-                            INICIO
+                            Inicio
                         </Link>
                     </li>
                     <li>
