@@ -13,7 +13,7 @@ function CardPhrases() {
         <div className="p-10 py-10 pb-16 bg-gray-100">
             <h2 className="mb-10 text-4xl font-bold text-center">Testimonios</h2>
             <Swiper
-                slidesPerView={3} // Muestra 3 tarjetas al mismo tiempo
+                slidesPerView={1} // Muestra 3 tarjetas al mismo tiempo
                 spaceBetween={20} // Espacio entre cada tarjeta
                 loop={true} // Permite un loop infinito
                 autoplay={{
@@ -29,7 +29,7 @@ function CardPhrases() {
                 breakpoints={{
                     1024: { slidesPerView: 3 }, // Para pantallas grandes, 3 tarjetas
                     768: { slidesPerView: 2 },  // Para pantallas medianas, 2 tarjetas
-                    480: { slidesPerView: 1 },  // Para pantallas pequeñas, 1 tarjeta
+                    580: { slidesPerView: 1 },  // Para pantallas pequeñas, 1 tarjeta
                 }}
             >
                 {userPhrases.map((phrase, index) => (
