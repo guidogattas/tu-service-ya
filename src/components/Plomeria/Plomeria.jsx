@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Plomeria = () => {
     return (
         <>
-            <div className="relative">
+            <div className="relative overflow-hidden">
                 <div
                     className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-60"
                     style={{ backgroundImage: "url('/images/bg/side-view-man-working-as-plumber-copia.webp')" }}

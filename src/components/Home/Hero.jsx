@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
-        <div className="relative">
+        <div className="relative overflow-hidden">
             {/* Fondo de imagen */}
             <div
                 className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-60"

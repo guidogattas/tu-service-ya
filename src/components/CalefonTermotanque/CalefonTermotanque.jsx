@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const CalefonTermotanque = () => {
   return (
     <>
-      <div className="relative overflow-x-hidden">
+      <div className="relative overflow-hidden">
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-60"
           style={{ backgroundImage: "url('/images/bg/iStock-1329466922-1920w.webp')" }}

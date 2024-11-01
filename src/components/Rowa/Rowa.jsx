@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Rowa = () => {
     return (
         <>
-            <div className="relative">
+            <div className="relative overflow-hidden">
                 <div
                     className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-60"
                     style={{ backgroundImage: "url('/images/bg/11062b_6e2c5579935747d58f0fa1e1f-edit-rowa.jpg')" }}
