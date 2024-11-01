@@ -1,9 +1,15 @@
-# React + Vite
+# Proyecto de Plomería
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de página web creado con **React**, **Tailwind CSS** y **React Router**. La página está diseñada para ofrecer información sobre servicios de plomería, incluyendo secciones específicas sobre Bombas Rowa, plomería general y calefones/termotanques.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# tu-service-ya
+## Características
+
+- Navegación entre secciones usando React Router.
+- Estilos responsivos y modernos gracias a Tailwind CSS.
+- Secciones informativas:
+  - **Inicio**: Bienvenida y descripción del servicio.
+  - **Bombas Rowa**: Información sobre productos y servicios relacionados.
+  - **Plomería**: Servicios de plomería disponibles.
+  - **Calefón / Termotanque**: Detalles sobre calefones y termotanques.
+
