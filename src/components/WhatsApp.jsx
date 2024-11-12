@@ -1,6 +1,6 @@
 import WhatsAppLogo from '../assets/icons/WhatsAppLogo.jsx';
 
-const WhatsApp = () => {
+const WhatsApp = ({ showText = true }) => {
     const phoneNumber = '5491131265226';
     const phoneNumberWA = '11 3126 5226';
     const message = 'Buenos días, quisiera consultarte por...';
@@ -25,11 +25,12 @@ const WhatsApp = () => {
                     className="w-12 text-green-500 transition-colors duration-200 md:w-16 hover:text-green-700"
                 />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=1234567890" target='_blank'>Contact Us on WhatsApp</a>
-            <div className='flex flex-col'>
-                <p className='text-white font-xbold text-md md:text-xl font-inter'>{phoneNumberWA}</p>
-                <p className='text-sm text-white md:text-lg font-inter'>Contactanos por WhatsApp</p>
-            </div>
+            {showText && (
+                <div className='flex flex-col'>
+                    <p className='text-white font-xbold text-md md:text-xl font-inter'>{phoneNumberWA}</p>
+                    <p className='text-sm text-white md:text-lg font-inter'>Contactanos por WhatsApp</p>
+                </div>
+            )}
         </div>
     );
 }

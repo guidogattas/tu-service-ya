@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import PedirCotizacionButton from "../common/PedirCotizacion/PedirCotizacion";
 
 const Hero = () => {
     return (
@@ -27,7 +28,7 @@ const Hero = () => {
                 >
                     Somos una empresa abocada al servicio de reparación y mantenimiento puerta a puerta. Contamos con movilidad propia, realizamos reparaciones en el día, personal calificado para asesorar y realizar informes técnicos.
                 </motion.p>
-                <motion.a
+                {/* <motion.a
                     href={`https://web.whatsapp.com/send?phone=1533066712&text=Prueba`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -37,7 +38,9 @@ const Hero = () => {
                     transition={{ delay: 0.4, type: "spring", stiffness: 50, damping: 10 }}
                 >
                     Pedir Cotización
-                </motion.a>
+                </motion.a> */}
+                <PedirCotizacionButton />
+
             </div>
         </div>
     );
