@@ -1,5 +1,6 @@
 import Cards from "../Home/Cards/Cards";
 import Info from "../Home/Info";
+import PedirCotizacionButton from "../common/PedirCotizacion/PedirCotizacion";
 import Zones from "../common/Zones/Zones";
 import { motion } from "framer-motion";
 
@@ -29,17 +30,7 @@ const Rowa = () => {
                     >
                         Nos especializamos en bombas ROWA, asegurando el servicio. Contamos con técnicos especializados para resolver cualquier problema de manera rápida y eficiente, brindando la mejor atención.
                     </motion.p>
-                    <motion.a
-                        href={`https://web.whatsapp.com/send?phone=1533066712&text=Prueba`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-6 text-xl md:text-3xl font-bold text-white bg-customOrange max-w-[300px] place-self-center md:place-self-start hover:bg-customGrey hover:text-customOrange duration-150 rounded-3xl"
-                        initial={{ x: "100vw", opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{ delay: 0.4, type: "spring", stiffness: 50, damping: 10 }}
-                    >
-                        Pedir Cotización
-                    </motion.a>
+                    <PedirCotizacionButton />
                 </div>
             </div>
 

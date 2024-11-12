@@ -1,5 +1,6 @@
 import Cards from "../Home/Cards/Cards";
 import Info from "../Home/Info";
+import PedirCotizacionButton from "../common/PedirCotizacion/PedirCotizacion";
 import Zones from "../common/Zones/Zones";
 import { motion } from "framer-motion";
 
@@ -29,17 +30,7 @@ const Plomeria = () => {
                     >
                         Soluciones rápidas y garantizadas para su hogar. Nuestro equipo de técnicos especializados está listo para brindarle la mejor atención en reparaciones y mantenimiento, con un servicio confiable y de calidad.
                     </motion.p>
-                    <motion.a
-                        href={`https://web.whatsapp.com/send?phone=1533066712&text=Prueba`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-4 text-lg md:text-3xl font-bold text-white bg-customOrange max-w-[250px] place-self-center md:place-self-start hover:bg-customGrey hover:text-customOrange duration-150 rounded-3xl"
-                        initial={{ x: "100vw", opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{ delay: 0.4, type: "spring", stiffness: 50, damping: 10 }}
-                    >
-                        Pedir Cotización
-                    </motion.a>
+                    <PedirCotizacionButton />
                 </div>
             </div>
 
