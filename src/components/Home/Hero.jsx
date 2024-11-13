@@ -12,21 +12,23 @@ const Hero = () => {
 
             {/* Contenido */}
             <div className="relative z-10 p-4 py-16 flex flex-col gap-12 text-customGrey md:ml-[50vw] md:py-[100px] md:gap-[100px]">
-                <motion.h3
+                <motion.h1
                     className="text-4xl font-bold text-center text-customGrey drop-shadow md:text-7xl font-arial md:text-left"
                     initial={{ x: "100vw", opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ type: "spring", stiffness: 50, damping: 10 }}
                 >
-                    TU SERVICE YA
-                </motion.h3>
+                    <h1>
+                        TU SERVICE YA
+                    </h1>
+                </motion.h1>
                 <motion.p
                     className="text-xl text-center text-black md:text-3xl drop-shadow md:text-left"
                     initial={{ x: "100vw", opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.2, type: "spring", stiffness: 50, damping: 10 }}
                 >
-                    Somos una empresa abocada al servicio de reparación y mantenimiento puerta a puerta. Contamos con movilidad propia, realizamos reparaciones en el día, personal calificado para asesorar y realizar informes técnicos.
+                    Somos una empresa abocada al servicio de reparación y mantenimiento de bombas Rowa, calefones, termotanques y plomería en general. Contamos con movilidad propia, realizamos reparaciones en el día, personal calificado para asesorar y realizar informes técnicos.
                 </motion.p>
                 <PedirCotizacionButton />
 

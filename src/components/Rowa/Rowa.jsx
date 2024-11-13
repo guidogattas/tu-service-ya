@@ -45,7 +45,7 @@ const Rowa = () => {
                     <div className="p-6 bg-white rounded-lg shadow-md">
                         <h4 className="text-xl font-bold">Mantenimiento y reparación completa de bombas</h4>
                         <p className="mt-2">
-                            Realizamos el diagnóstico y la reparación de bombas ROWA en el día o en un plazo de hasta 24 horas, según el problema.
+                            Realizamos el diagnóstico y la reparación de bombas ROWA en el día o en un plazo de hasta 48 horas, según el problema.
                         </p>
                     </div>
                     <div className="p-6 bg-white rounded-lg shadow-md">
